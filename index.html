@@ -211,7 +211,7 @@ button{background:linear-gradient(100deg,#18bcd9,var(--accent2));color:#fff;bord
 </div>
 <script>
 'use strict';
-const API_BASE = 'https://ethical-cookbook-sellers-ind.trycloudflare.com/api';
+const API_BASE = 'https://reward-mode-record-notes.trycloudflare.com/api';
 const $=id=>document.getElementById(id);
 let FILE=null, deviceId=localStorage.getItem('holo_device_id');
 if(!/^HOLO-[A-Z0-9]{6}$/.test(deviceId||'')){ const chars='ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; deviceId='HOLO-'+Array.from(crypto.getRandomValues(new Uint32Array(6)),n=>chars[n%chars.length]).join(''); localStorage.setItem('holo_device_id',deviceId); }
